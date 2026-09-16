@@ -1,0 +1,34 @@
+# Environment and local configuration files
+.env
+.env.*
+!.env*.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+frontend/dist/
+frontend/node_modules/
+
+# Local models and large generated archives
+backend/models/
+frontend.zip
+
+# Local databases and runtime files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+uploads/
+storage/
+
+# Python environments and tooling
+.venv/
+venv/
+env/
+.coverage
+htmlcov/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
